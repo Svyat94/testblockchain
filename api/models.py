@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Token(models.Models):
+class Token(models.Model):
     id = models.AutoField(primary_key=True)  #- primary key
     unique_hash = models.CharField(max_length=64, unique=True, null=True) #- уникальный хэш
     tx_hash = models.TextField(max_length=255)  #- хэш транзакции создания токена

@@ -2,6 +2,7 @@ Django
 python-dotenv
 psycopg2-binary
 djangorestframework
+markdown
 djoser
 django-filter
 django-extra-fields

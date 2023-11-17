@@ -8,6 +8,8 @@ django-extra-fields
 pillow
 gunicorn
 
+web3
+
 pep8
 pylint
 pycodestyle
